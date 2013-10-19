@@ -8,3 +8,10 @@ the browser default styles before applying their own */
 	margin-right: 1em;
 	margin-bottom: 1em;
 }
+
+@media screen and (max-width: 767px) {
+	/* styles to apply on very narrow screens */
+	.carousel {
+		display: none;
+	}
+}
